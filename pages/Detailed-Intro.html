@@ -85,39 +85,59 @@
     <div class="container">
         <h1>A more Technical Introduction to Artificial Intelligence</h1>
         <h3 style="color: grey;">   M. Pandya - 16th October 2024</h3>
-        <!-- Section 1 with Text and Image -->
-        <div class="section">
-            <p>
-              In the first Intro (from the first principles), it was mentioned that AI systems can 'learn' and adapt'.
-              In this sections let's see how exactly do we define such systems, from a very primitive example. I use the word
-              primitive here because it isn't just a basic example that we will discuss, but one that has been formulated over two 
-              hundred years ago, formalized separately by Laplace and Gauss - although the underlying concepts were developed many 
-              more centuries earlier.
-            </p>
-            <p>
-              This system of the predictive analysis, popularly known as the 'best fit line', is called
-              <b><i>Linear Regression.</i></b>
-            </p>
-        <p>
-          Let's consider a few dozen samples of body height and weights. Let's plot them unto a graph like so:
-        </p>
-        <img src="../images/1.png" alt="H vs W">
-        </div>
+       <!-- Section 1 with Text and Image -->
+<div class="section">
+    <p>
+        In the first introduction, we discussed how AI systems can 'learn' and adapt. 
+        In this section, let's define such systems using a fundamental example. I refer
+        to this example as primitive because, while it is straightforward, it has been 
+        developed over two hundred years ago and formalized separately by Laplace and Gauss, 
+        although its underlying concepts date back even further.
+    </p>
+    <p>
+        This predictive analysis method, more commonly known as the 'best fit line', is called 
+        <b><i>Linear Regression.</i></b>
+    </p>
+    <p>
+        Let's consider a set of samples representing body height and weight. 
+        We can plot these on a graph as shown below:
+    </p>
+    <img src="../images/1.png" alt="Height vs Weight">
+</div>
 
-        <!-- Section 2 with Text and Image -->
-        <div class="section">
-          <p>
-            Note that it's linear here, because it has been tweaked to be the subject for our study. Now given this data, 
-              if there were to be new samples of height/weight; It would be quite straightforward to 'guesstimate' the 
-              approximate weight/height looking at the graph. 
-          </p>
-        <p>
-            But this technique limits usability in very large samples, or where it's too complicated for the human eye to 
-            find a straightforward pattern to extend on to new data. This is where a formal mathematical way of predicting 
-            using the principles of Human pattern recognition
-        </p>
-          <img src="../images/2.png" alt="HvW with trend line">
-        </div>
+<!-- Section 2 with Text and Image -->
+<div class="section">
+    <p>
+        Note that the relationship appears linear, as we have adjusted the data 
+        for our study. Given this dataset, if we were to obtain new samples of height
+        and weight, we could easily 'guesstimate' the approximate weight or height by 
+        referring to the graph.
+    </p>
+    <p>
+        However, this tedious technique has limitations when dealing with large datasets or 
+        when the data's complexity makes it difficult for the human eye to discern 
+        clear patterns. This is where a formal mathematical approach to prediction becomes invaluable.
+    </p>
+    <p>
+        Linear regression aims to find a line (simply finding the parameters m and 
+        c in the equation y = mx + c) that minimizes the error between the line and
+        the actual data points. This method allows for more accurate predictions based
+        on the available data.
+    </p>
+    <p>
+        If you would like to learn how exactly we can find this line and actually perform Linear regression
+        on your own from scratch, kindly have a look at
+        <a href="python and basic AI resources.html" style="color: dark blue";>Resource Page</a> for Links to start
+        For now let's consider a high-level overview of Linear Regression, considering it as a blackbox and proceeding 
+        to understand what it does.
+        
+    </p>
+    <p>
+        Have a look at the following image, where the best fit line has been added to our original data:
+    </p>
+    <img src="../images/2.png" alt="Height vs Weight with Trend Line">
+</div>
+
 
           <!-- Section 3 with Text and Image -->
         <div class="section">
